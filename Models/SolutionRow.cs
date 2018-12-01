@@ -13,6 +13,9 @@ namespace UniScheduling.Models
         public int StartSlot { get; set; }
         public int EndSlot { get; set; }
         public int Period { get; set; }
+        public int Day { get; set; }
+
+
 
         public SolutionRow(string CourseId, string RoomId, int Day, int Period)
         {

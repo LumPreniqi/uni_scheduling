@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\WeekDay.cs" />
     <Compile Include="IO.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Constraint.cs" />

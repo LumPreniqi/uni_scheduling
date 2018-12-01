@@ -10,8 +10,9 @@ namespace UniScheduling.Models
     {
         public static int Days = 5;
         public static int CurrentDay;
-        public static bool found;
+        public static bool Found;
 
+        public static int[] StartSlotPerDay = { 0, 0, 0, 0, 0 }; 
         public static List<Course> Courses { get; set; } = new List<Course>();
         public static List<Constraint> Constraints { get; set; } = new List<Constraint>();
         public static List<Room> Rooms { get; set; } = new List<Room>();
@@ -20,10 +21,11 @@ namespace UniScheduling.Models
         public static void Generate()
         {
             var solutions = new List<SolutionRow>();
-            foreach (Course course in Courses)
+
+            foreach (Course course in Courses.Take(1))
             {
-                found = false;
-                while(!found)
+                Found = false;
+                while (!Found)
                 {
                     for (CurrentDay = 0; CurrentDay < Days; CurrentDay++)
                     {
@@ -32,7 +34,6 @@ namespace UniScheduling.Models
 
                 solutions.Add(new SolutionRow(course.Id, "", 0, 0));
             }
-
         }
 
         public static string GetRoom(Course course)
@@ -51,7 +52,7 @@ namespace UniScheduling.Models
                 }
             }
 
-            return suitableRooms.First().Id;
+            return suitableRooms.First().Id; //me bo random, kshtu gjith provon njejt
         }
         public static int GetPeriod(Course course, int Day)
         {
@@ -60,7 +61,11 @@ namespace UniScheduling.Models
             var periodConstraint = Constraints.Where(constraint => constraint.Type == "period" && constraint.CourseId == course.Id);
             if (periodConstraint.Count() > 0)
             {
-                StartTimeSlot = periodConstraint.First().TimeSlots.Where(t => t.Day == Day).Last().Period  + 1;
+                var invalidTimeSlotsByDay = periodConstraint.First().TimeSlots.Where(t => t.Day == Day);
+                if ((invalidTimeSlotsByDay.Count() > 0) && (StartSlotPerDay[CurrentDay] < invalidTimeSlotsByDay.Last().Period))
+                {
+                    StartTimeSlot = invalidTimeSlotsByDay.Last().Period + 1;
+                }
             }
 
             return StartTimeSlot;
@@ -71,14 +76,9 @@ namespace UniScheduling.Models
             return false;
         }
 
-        public bool CheckCurrentSoluton(SolutionRow solution)
+        public static bool CheckCurrentSoluton(string roomId, string teacherId, string curriculum)
         {
             return false;
         }
-        public static bool CheckConstraints(Course course)
-        {
-            return false;
-        }
-
     }
 }
