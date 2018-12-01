@@ -1,0 +1,7 @@
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\UniScheduling.exe.config
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\UniScheduling.exe
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\UniScheduling.pdb
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.csprojAssemblyReference.cache
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.csproj.CoreCompileInputs.cache
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.exe
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.pdb
