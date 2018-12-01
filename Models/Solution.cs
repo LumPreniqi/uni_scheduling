@@ -10,6 +10,7 @@ namespace UniScheduling.Models
     {
         public static int Days = 5;
         public static int CurrentDay;
+        public static bool found;
 
         public static List<Course> Courses { get; set; } = new List<Course>();
         public static List<Constraint> Constraints { get; set; } = new List<Constraint>();
@@ -19,7 +20,6 @@ namespace UniScheduling.Models
         public static void Generate()
         {
             var solutions = new List<SolutionRow>();
-            bool found;
             foreach (Course course in Courses)
             {
                 found = false;
@@ -27,8 +27,6 @@ namespace UniScheduling.Models
                 {
                     for (CurrentDay = 0; CurrentDay < Days; CurrentDay++)
                     {
-                        GetRoom(course);
-                        GetPeriod(course, CurrentDay);
                     }
                 }
 
