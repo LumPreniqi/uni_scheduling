@@ -20,13 +20,19 @@ namespace UniScheduling.Models
         public static void Generate()
         {
             var solutions = new List<SolutionRow>();
-
+            bool found;
             foreach (Course course in Courses)
             {
-                for (CurrentDay = 0; CurrentDay < Days; CurrentDay++)
+                found = false;
+                while(!found)
                 {
+                    for (CurrentDay = 0; CurrentDay < Days; CurrentDay++)
+                    {
 
+                    }
                 }
+
+                solutions.Add(new SolutionRow(course.Id, "", 0, 0));
             }
 
         }
