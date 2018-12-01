@@ -12,17 +12,17 @@ namespace UniScheduling.Models
         public string RoomId { get; set; }
         public int StartSlot { get; set; }
         public int EndSlot { get; set; }
-        public int Period { get; set; }
+        public string TeacherId { get; set; }
         public int Day { get; set; }
 
-
-
-        public SolutionRow(string CourseId, string RoomId, int Day, int Period)
+        public SolutionRow(Course Course, string RoomId, int StartSlot, int EndSlot, int Day)
         {
-            this.CourseId = CourseId;
+            this.CourseId = Course.Id;
             this.RoomId = RoomId;
+            this.StartSlot = StartSlot;
+            this.EndSlot = EndSlot;
             this.Day = Day;
-            this.Period = Period;
+            this.TeacherId = Course.TeacherId;
         }
     }
 }

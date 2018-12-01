@@ -5,3 +5,10 @@ C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniSchedul
 C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.csproj.CoreCompileInputs.cache
 C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.exe
 C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\obj\Debug\UniScheduling.pdb
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\bin\Debug\UniScheduling.exe.config
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\bin\Debug\UniScheduling.exe
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\bin\Debug\UniScheduling.pdb
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.csprojAssemblyReference.cache
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.csproj.CoreCompileInputs.cache
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.exe
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.pdb

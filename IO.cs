@@ -13,7 +13,7 @@ namespace UniScheduling
         public static void Read()
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("C:\\Users\\TechStore\\source\\repos\\UniScheduling\\UniScheduling\\Input\\input.xml");
+            doc.Load("E:\\Fakulteti\\Algoritmet e inspiruara nga natyra\\uni_scheduling\\Input\\input.xml");
             XmlElement root = doc.DocumentElement;
 
             XmlNode parentNode = root.SelectSingleNode("courses");
