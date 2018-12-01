@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UniScheduling.Enums;
 
 namespace UniScheduling.Models
 {
@@ -28,7 +27,8 @@ namespace UniScheduling.Models
                 {
                     for (CurrentDay = 0; CurrentDay < Days; CurrentDay++)
                     {
-
+                        GetRoom(course);
+                        GetPeriod(course, CurrentDay);
                     }
                 }
 
@@ -57,15 +57,15 @@ namespace UniScheduling.Models
         }
         public static int GetPeriod(Course course, int Day)
         {
-            int EndTimeSlot = 0;
+            int StartTimeSlot = 0;
 
             var periodConstraint = Constraints.Where(constraint => constraint.Type == "period" && constraint.CourseId == course.Id);
             if (periodConstraint.Count() > 0)
             {
-                EndTimeSlot = (periodConstraint.First().TimeSlots.Where(t => t.Day == Day).Last().Period  + 1;
+                StartTimeSlot = periodConstraint.First().TimeSlots.Where(t => t.Day == Day).Last().Period  + 1;
             }
 
-            return EndTimeSlot;
+            return StartTimeSlot;
         }
 
         public static bool CheckCurriculum(Course course)
