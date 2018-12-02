@@ -30,11 +30,11 @@ namespace UniScheduling.Models
             {
                 periods = 0;
             }
-            else if (this.Lectures >= 4 || this.Lectures <= 6)
+            else if (this.Lectures <= 6)
             {
                 periods = 1;
             }
-            else if(this.Lectures >= 7 || this.Lectures <= 8)
+            else if(this.Lectures <= 8)
             {
                 periods = 2;
             }
