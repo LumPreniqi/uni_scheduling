@@ -84,7 +84,8 @@ namespace UniScheduling.Models
                 }
 
                 // get solutions in the same slot or interval
-                var getExistingSolutions = solutions.Where(x => x.Day == day).Where(x => (x.StartSlot <= slot && slot <= x.EndSlot) ||
+                var getExistingSolutions = solutions.Where(x => x.Day == day).ToList();
+                getExistingSolutions = getExistingSolutions.Where(x => (x.StartSlot <= slot && slot <= x.EndSlot) ||
                 (x.StartSlot <= (slot + lectureSlots) && (slot + lectureSlots) <= x.EndSlot)).ToList();
 
                 // check if we have the same teacher

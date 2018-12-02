@@ -26,15 +26,15 @@ namespace UniScheduling.Models
             int periods = 0;
             int timeSlots = this.Lectures * 3;
 
-            if(this.Lectures <= 3)
+            if(this.Lectures <= 2)
             {
                 periods = 0;
             }
-            else if (this.Lectures <= 6)
+            else if (this.Lectures <= 4)
             {
                 periods = 1;
             }
-            else if(this.Lectures <= 8)
+            else if(this.Lectures <= 5)
             {
                 periods = 2;
             }
