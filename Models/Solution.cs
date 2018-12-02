@@ -35,7 +35,9 @@ namespace UniScheduling.Models
                     if (startSlot != -1)
                     {
                         solutions.Add(new SolutionRow(course, RoomId, startSlot, startSlot + lectureSlots, day));
-                        Console.WriteLine("Course ID: {0} / Teacher ID: {1} / Room ID: {2} / Day: {3} / Slot: {4}", course.Id, course.TeacherId, RoomId, day, startSlot);
+                        Console.WriteLine("{0} {1} {2} {3}", course.Id, RoomId, day, startSlot);
+
+                        //Console.WriteLine("Course ID: {0} / Teacher ID: {1} / Room ID: {2} / Day: {3} / Slot: {4}", course.Id, course.TeacherId, RoomId, day, startSlot);
                         break;
                     }
                 }
