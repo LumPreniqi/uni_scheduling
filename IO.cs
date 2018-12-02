@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,7 @@ namespace UniScheduling
         public static void Read()
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("E:\\Fakulteti\\Algoritmet e inspiruara nga natyra\\uni_scheduling\\Input\\input.xml");
+            doc.Load("Input\\input.xml");
             XmlElement root = doc.DocumentElement;
 
             XmlNode parentNode = root.SelectSingleNode("courses");
@@ -63,6 +64,17 @@ namespace UniScheduling
                 }
 
                 Solution.Curricula.Add(baseCurriculum);
+            }
+        }
+
+        public static void Write(List<SolutionRow> solutions)
+        {
+            using (StreamWriter writeSolution = new StreamWriter("Output\\solution.txt"))
+            {
+                foreach (var solution in solutions)
+                {
+                    writeSolution.WriteLine(solution.ToString());
+                }
             }
         }
     }

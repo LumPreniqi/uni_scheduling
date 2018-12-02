@@ -10,11 +10,14 @@ namespace UniScheduling.Models
     {
         public static int Days = 5;
         public static int SlotsPerDay = 48;
+        private static string RoomId;
 
         public static List<Course> Courses { get; set; } = new List<Course>();
         public static List<Constraint> Constraints { get; set; } = new List<Constraint>();
         public static List<Room> Rooms { get; set; } = new List<Room>();
         public static List<Curriculum> Curricula { get; set; } = new List<Curriculum>();
+
+        public static bool found = false;
 
         public static void Generate()
         {
@@ -22,30 +25,33 @@ namespace UniScheduling.Models
 
             foreach (var course in Courses)
             {
-                var room = GetRoom(course);
+                var availableRooms = GetRooms(course);
                 var curriculaCourses = GetCurriculumCourses(course);
-                var lectureSlots = course.GetCourseSlots();
+                var lectureSlots = course.GetSlots();
 
                 for (int day = 0; day < Days; day++)
                 {
-                    var startSlot = FindSolution(solutions, course, room, curriculaCourses, day, lectureSlots);
+                    var startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
                     if (startSlot != -1)
                     {
-                        solutions.Add(new SolutionRow(course, room, startSlot, startSlot + lectureSlots, day));
+                        Console.WriteLine("Course ID: {0} Room ID: {1} Day: {2} Slot: {3}", course.Id, RoomId, day, startSlot);
+                        solutions.Add(new SolutionRow(course, RoomId, startSlot, startSlot + lectureSlots, day));
                         break;
                     }
                 }
             }
+
+            IO.Write(solutions);
         }
 
-        public static string GetRoom(Course course)
+        public static List<Room> GetRooms(Course course)
         {
             var suitableRooms = Rooms.Where(room => course.Students <= room.Size).ToList();
             var roomConstraint = Constraints.Where(constraint => constraint.Type == "room" && constraint.CourseId == course.Id).SelectMany(x => x.Rooms).ToList();
             suitableRooms = suitableRooms.Except(roomConstraint).ToList();
             var rnd = new Random();
 
-            return suitableRooms[rnd.Next(suitableRooms.Count)].Id;
+            return suitableRooms;
         }
 
         public static List<TimeSlot> GetNotAllowedSlots(Course course, int Day)
@@ -65,7 +71,7 @@ namespace UniScheduling.Models
             return curriculaCourses;
         }
 
-        public static int FindSolution(List<SolutionRow> solutions, Course course, string roomId, List<Course> curriculumCourses, int day, int lectureSlots)
+        public static int FindSolution(List<SolutionRow> solutions, Course course, List<Room> availableRooms, List<Course> curriculumCourses, int day, int lectureSlots)
         {
             var notAllowedSlots = GetNotAllowedSlots(course, day);
 
@@ -104,15 +110,17 @@ namespace UniScheduling.Models
                     continue;
                 }
 
-                // check if we have the same room
-                var sameRoom = getExistingSolutions.FirstOrDefault(x => x.RoomId == roomId);
-                if (sameRoom != null)
+                // Remove unavailable rooms
+                foreach (var availableRoom in availableRooms)
                 {
-                    if (sameRoom.EndSlot > slot)
-                    {
-                        slot = sameRoom.EndSlot;
-                    }
-                    continue;
+                    var sameRoom = getExistingSolutions.FirstOrDefault(x => x.RoomId == availableRoom.Id);
+                    availableRooms.Except(Rooms.Where(rm => rm.Id == sameRoom.RoomId));
+                }
+                    
+                if(availableRooms != null)
+                {
+                    Random rand = new Random();
+                    RoomId = availableRooms[rand.Next(availableRooms.Count)].Id;
                 }
 
                 return slot;

@@ -24,5 +24,10 @@ namespace UniScheduling.Models
             this.Day = Day;
             this.TeacherId = Course.TeacherId;
         }
+
+        public override string ToString()
+        {
+            return this.CourseId + " " + this.RoomId + " " + this.Day + " " + this.StartSlot;
+        }
     }
 }

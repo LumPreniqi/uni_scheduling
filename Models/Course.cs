@@ -21,10 +21,25 @@ namespace UniScheduling.Models
             this.Students = Students;
         }
 
-        public int GetCourseSlots()
+        public int GetSlots()
         {
-            // TO DO llogariti slots e kursit (lecture * 3 + pushimet varet qysh i bjen)  
-            return Lectures;
+            int periods = 0;
+            int timeSlots = this.Lectures * 3;
+
+            if(this.Lectures <= 3)
+            {
+                periods = 0;
+            }
+            else if (this.Lectures >= 4 || this.Lectures <= 6)
+            {
+                periods = 1;
+            }
+            else if(this.Lectures >= 7 || this.Lectures <= 8)
+            {
+                periods = 2;
+            }
+
+            return timeSlots + periods;
         }
     }
 }

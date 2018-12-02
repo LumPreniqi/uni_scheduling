@@ -12,3 +12,5 @@ E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniSche
 E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.csproj.CoreCompileInputs.cache
 E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.exe
 E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.pdb
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\Input\input.xml
+C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\Output\solution.txt
