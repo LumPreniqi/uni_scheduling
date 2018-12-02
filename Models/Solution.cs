@@ -34,8 +34,8 @@ namespace UniScheduling.Models
                     var startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
                     if (startSlot != -1)
                     {
-                        Console.WriteLine("Course ID: {0} Room ID: {1} Day: {2} Slot: {3}", course.Id, RoomId, day, startSlot);
                         solutions.Add(new SolutionRow(course, RoomId, startSlot, startSlot + lectureSlots, day));
+                        Console.WriteLine("Course ID: {0} / Teacher ID: {1} / Room ID: {2} / Day: {3} / Slot: {4}", course.Id, course.TeacherId, RoomId, day, startSlot);
                         break;
                     }
                 }
@@ -49,7 +49,6 @@ namespace UniScheduling.Models
             var suitableRooms = Rooms.Where(room => course.Students <= room.Size).ToList();
             var roomConstraint = Constraints.Where(constraint => constraint.Type == "room" && constraint.CourseId == course.Id).SelectMany(x => x.Rooms).ToList();
             suitableRooms = suitableRooms.Except(roomConstraint).ToList();
-            var rnd = new Random();
 
             return suitableRooms;
         }
@@ -111,18 +110,23 @@ namespace UniScheduling.Models
                 }
 
                 var unAvailableRoomSolutions = new List<SolutionRow>();
+                var filteredAvailableRooms = new List<Room>();
 
                 // Remove unavailable rooms
                 foreach (var availableRoom in availableRooms)
                 {
                     var sameRoom = getExistingSolutions.FirstOrDefault(x => x.RoomId == availableRoom.Id);
+
+                    filteredAvailableRooms.Add(availableRoom);
                     unAvailableRoomSolutions.Add(sameRoom);
-                    availableRooms.Except(Rooms.Where(rm => rm.Id == sameRoom.RoomId));
+
+                    if (sameRoom != null)
+                        filteredAvailableRooms.Remove(availableRoom);
                 }
-                    
-                if(availableRooms != null)
+
+                if (filteredAvailableRooms.Any())
                 {
-                    RoomId = GetMostSuitableRoom(availableRooms, course.Students);
+                    RoomId = GetMostSuitableRoom(filteredAvailableRooms, course.Students);
                 }
                 else
                 {

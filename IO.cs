@@ -69,7 +69,7 @@ namespace UniScheduling
 
         public static void Write(List<SolutionRow> solutions)
         {
-            using (StreamWriter writeSolution = new StreamWriter("Output\\solution.txt"))
+            using (StreamWriter writeSolution = new StreamWriter("Output/solutions.txt"))
             {
                 foreach (var solution in solutions)
                 {
