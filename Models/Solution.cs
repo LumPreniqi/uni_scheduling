@@ -110,17 +110,29 @@ namespace UniScheduling.Models
                     continue;
                 }
 
+                var unAvailableRoomSolutions = new List<SolutionRow>();
+
                 // Remove unavailable rooms
                 foreach (var availableRoom in availableRooms)
                 {
                     var sameRoom = getExistingSolutions.FirstOrDefault(x => x.RoomId == availableRoom.Id);
+                    unAvailableRoomSolutions.Add(sameRoom);
                     availableRooms.Except(Rooms.Where(rm => rm.Id == sameRoom.RoomId));
                 }
                     
                 if(availableRooms != null)
                 {
-                    Random rand = new Random();
-                    RoomId = availableRooms[rand.Next(availableRooms.Count)].Id;
+                    RoomId = GetMostSuitableRoom(availableRooms, course.Students);
+                }
+                else
+                {
+                    int lowestEndSlot = unAvailableRoomSolutions.OrderBy(slt => slt.EndSlot).First().EndSlot;
+
+                    if (lowestEndSlot > slot)
+                    {
+                        slot = lowestEndSlot;
+                    }
+                    continue;
                 }
 
                 return slot;
@@ -141,6 +153,11 @@ namespace UniScheduling.Models
             }
 
             return null;
+        }
+
+        public static string GetMostSuitableRoom(List<Room> rooms, int students)
+        {
+            return rooms.OrderBy(rm => rm.Size - students).First().Id;
         }
     }
 }
