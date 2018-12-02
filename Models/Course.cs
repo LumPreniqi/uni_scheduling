@@ -34,7 +34,7 @@ namespace UniScheduling.Models
             {
                 periods = 1;
             }
-            else if(this.Lectures <= 5)
+            else
             {
                 periods = 2;
             }
