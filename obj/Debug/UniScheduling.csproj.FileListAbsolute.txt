@@ -14,3 +14,5 @@ E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniSche
 E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\obj\Debug\UniScheduling.pdb
 C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\Input\input.xml
 C:\Users\TechStore\source\repos\UniScheduling\UniScheduling\bin\Debug\Models\Room.cs
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\bin\Debug\Input\input.xml
+E:\Fakulteti\Algoritmet e inspiruara nga natyra\uni_scheduling\bin\Debug\Models\Room.cs

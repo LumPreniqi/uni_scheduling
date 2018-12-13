@@ -48,6 +48,7 @@
     <Compile Include="Models\Constraint.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Curriculum.cs" />
+    <Compile Include="Models\Fitness.cs" />
     <Compile Include="Models\Room.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
@@ -62,8 +63,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Input\fim.xml" />
+    <Content Include="Input\fim2.xml" />
     <Content Include="Input\input.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Output\solutions.txt" />
   </ItemGroup>

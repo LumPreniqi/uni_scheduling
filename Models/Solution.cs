@@ -17,9 +17,8 @@ namespace UniScheduling.Models
         public static List<Room> Rooms { get; set; } = new List<Room>();
         public static List<Curriculum> Curricula { get; set; } = new List<Curriculum>();
 
-        public static bool found = false;
 
-        public static void Generate()
+        public static List<SolutionRow> Generate()
         {
             var solutions = new List<SolutionRow>();
 
@@ -43,12 +42,12 @@ namespace UniScheduling.Models
                 }
             }
 
-            IO.Write(solutions);
+            return solutions;
         }
 
         public static List<Room> GetRooms(Course course)
         {
-            var suitableRooms = Rooms.Where(room => course.Students <= room.Size).ToList();
+            var suitableRooms = Rooms.ToList(); // Rooms.Where(room => course.Students <= room.Size).ToList();
             var roomConstraint = Constraints.Where(constraint => constraint.Type == "room" && constraint.CourseId == course.Id).SelectMany(x => x.Rooms).ToList();
             suitableRooms = suitableRooms.Except(roomConstraint).ToList();
 
@@ -87,9 +86,8 @@ namespace UniScheduling.Models
 
                 // get solutions in the same slot or interval
                 var getExistingSolutions = solutions.Where(x => x.Day == day).Where(x => (x.StartSlot <= slot && slot <= x.EndSlot) ||
-                (x.StartSlot >= slot && slot <= x.EndSlot) ||
                 (x.StartSlot <= (slot + lectureSlots) && (slot + lectureSlots) <= x.EndSlot) ||
-                (x.StartSlot >= (slot + lectureSlots) && (slot + lectureSlots) <= x.EndSlot)).ToList();
+                (slot <= x.StartSlot && (slot + lectureSlots) >= x.EndSlot)).ToList();
 
                 // check if we have the same teacher
                 var sameTeacher = getExistingSolutions.FirstOrDefault(x => x.TeacherId == course.TeacherId);
@@ -130,7 +128,9 @@ namespace UniScheduling.Models
 
                 if (filteredAvailableRooms.Any())
                 {
-                    RoomId = GetMostSuitableRoom(filteredAvailableRooms, course.Students);
+                    var rnd = new Random();
+                    RoomId = filteredAvailableRooms[rnd.Next(filteredAvailableRooms.Count)].Id;
+                    // RoomId = GetMostSuitableRoom(filteredAvailableRooms, course.Students);
                 }
                 else
                 {
@@ -165,7 +165,19 @@ namespace UniScheduling.Models
 
         public static string GetMostSuitableRoom(List<Room> rooms, int students)
         {
-            return rooms.OrderBy(rm => rm.Size - students).First().Id;
+            return rooms.OrderBy(rm => Math.Abs(rm.Size - students)).First().Id;
+        }
+
+        public static List<SolutionRow> ChangeCourseRoom(List<SolutionRow> solutions)
+        {
+            var rnd = new Random();
+            var index = rnd.Next(Courses.Count);
+            var availableRooms = GetRooms(Courses[index]);
+            var solutionIndex = solutions.FindIndex(x => x.CourseId == Courses[index].Id);
+
+            availableRooms.Remove(Rooms.First(x => x.Id == solutions[solutionIndex].RoomId));
+            solutions[solutionIndex].RoomId = availableRooms[rnd.Next(availableRooms.Count)].Id;
+            return solutions;
         }
     }
 }
