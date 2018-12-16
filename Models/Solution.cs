@@ -172,11 +172,91 @@ namespace UniScheduling.Models
         {
             var rnd = new Random();
             var index = rnd.Next(Courses.Count);
-            var availableRooms = GetRooms(Courses[index]);
-            var solutionIndex = solutions.FindIndex(x => x.CourseId == Courses[index].Id);
-
+            var course = Courses[index];
+            var availableRooms = GetRooms(course);
+            var solutionIndex = solutions.FindIndex(x => x.CourseId == course.Id);
             availableRooms.Remove(Rooms.First(x => x.Id == solutions[solutionIndex].RoomId));
-            solutions[solutionIndex].RoomId = availableRooms[rnd.Next(availableRooms.Count)].Id;
+
+            var getExistingSolutions = solutions.Where(x => x.Day == solutions[solutionIndex].Day)
+                .Where(x => (x.StartSlot <= solutions[solutionIndex].StartSlot && solutions[solutionIndex].StartSlot <= x.EndSlot) ||
+                (x.StartSlot <= solutions[solutionIndex].EndSlot && solutions[solutionIndex].EndSlot <= x.EndSlot) ||
+                (solutions[solutionIndex].StartSlot <= x.StartSlot && solutions[solutionIndex].EndSlot >= x.EndSlot)).ToList();
+
+            var busyRoomIds = getExistingSolutions.Select(x => x.RoomId).ToList();
+            availableRooms = availableRooms.Where(x => !busyRoomIds.Contains(x.Id)).ToList();
+            
+            if (availableRooms.Count() == 0)
+            {
+                return solutions;
+            }
+
+            var bestAvailableRooms = availableRooms.Where(x => course.Students < x.Size).ToList();
+
+            if (bestAvailableRooms.Count() == 0)
+            {
+                solutions[solutionIndex].RoomId = availableRooms[rnd.Next(availableRooms.Count)].Id;
+            }
+            else
+            {
+                bestAvailableRooms = bestAvailableRooms.OrderBy(x => x.Size).ToList();
+                solutions[solutionIndex].RoomId = bestAvailableRooms.First().Id;
+            }
+
+            return solutions;
+        }
+
+        public static List<SolutionRow> SwapCourses(List<SolutionRow> solutions)
+        {
+            var rnd = new Random();
+            var dayIndex = rnd.Next(Days);
+            var daySolutions = solutions.Where(x => x.Day == dayIndex);
+
+            var sameCurricula = Fitness.GetWindows(solutions, dayIndex, Courses, Curricula);
+            if (sameCurricula == null)
+            {
+                return solutions;
+            }
+
+            var notCorrectSolution = new List<SolutionRow>();
+            var hasDifference = false;
+
+            for (int i = 1; i < sameCurricula.Count; i++)
+            {
+                var difference = sameCurricula[i].StartSlot - sameCurricula[i - 1].EndSlot;
+                if (difference > 1 || hasDifference)
+                {
+                    hasDifference = true;
+                    var course = daySolutions.First(x => x.CourseId == sameCurricula[i].CourseId);
+                    solutions.Remove(course);
+                    solutions = FindSlot(dayIndex, Courses.First(x => x.Id == course.CourseId), solutions);
+                }
+            }
+
+            return solutions;
+        }
+
+        public static List<SolutionRow> FindSlot(int existingDay, Course course, List<SolutionRow> solutions)
+        {
+            var availableRooms = GetRooms(course);
+            var curriculaCourses = GetCurriculumCourses(course);
+            var lectureSlots = course.GetSlots();
+
+            for (int day = 0; day < Days; day++)
+            {
+                if (day == existingDay)
+                {
+                    continue;
+                }
+
+                var startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
+                if (startSlot != -1)
+                {
+                    solutions.Add(new SolutionRow(course, RoomId, startSlot, startSlot + lectureSlots, day));
+                    //Console.WriteLine("{0} {1} {2} {3}", course.Id, RoomId, day, startSlot);
+                    break;
+                }
+            }
+
             return solutions;
         }
     }

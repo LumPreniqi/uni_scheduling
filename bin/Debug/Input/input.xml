@@ -20,7 +20,7 @@
     <course id="c0078" teacher="t010" lectures="5" min_days="4" students="55" double_lectures="no"/>
     <course id="c0030" teacher="t011" lectures="5" min_days="4" students="20" double_lectures="no"/>
     <course id="c0031" teacher="t012" lectures="5" min_days="4" students="11" double_lectures="no"/>
-    <course id="c0032" teacher="t013" lectures="1" min_days="1" students="31" double_lectures=  "no"/>
+    <course id="c0032" teacher="t013" lectures="1" min_days="1" students="31" double_lectures="no"/>
     <course id="c0033" teacher="t014" lectures="6" min_days="4" students="31" double_lectures="no"/>
     <course id="c0057" teacher="t015" lectures="5" min_days="4" students="2" double_lectures="yes"/>
     <course id="c0058" teacher="t016" lectures="5" min_days="4" students="2" double_lectures="yes"/>

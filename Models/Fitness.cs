@@ -53,6 +53,8 @@ namespace UniScheduling.Models
                         }
                     }
 
+                    sameCurricula = sameCurricula.OrderBy(x => x.StartSlot).ToList();
+
                     for (int i = 1; i < sameCurricula.Count; i++)
                     {
                         var difference = sameCurricula[i].StartSlot - sameCurricula[i - 1].EndSlot;
@@ -65,6 +67,35 @@ namespace UniScheduling.Models
             }
 
             return windows;
+        }
+
+        public static List<SolutionRow> GetWindows(List<SolutionRow> solutions, int day, List<Course> Courses, List<Curriculum> Curricula)
+        {
+            foreach (var curricula in Curricula)
+            {
+                var sameCurricula = new List<SolutionRow>();
+
+                foreach (var s in solutions.Where(x => x.Day == day))
+                {
+                    if (curricula.Courses.Contains(Courses.First(x => x.Id == s.CourseId)))
+                    {
+                        sameCurricula.Add(s);
+                    }
+                }
+
+                sameCurricula = sameCurricula.OrderBy(x => x.StartSlot).ToList();
+
+                for (int i = 1; i < sameCurricula.Count; i++)
+                {
+                    var difference = sameCurricula[i].StartSlot - sameCurricula[i - 1].EndSlot;
+                    if (difference > 1)
+                    {
+                        return sameCurricula;
+                    }
+                }   
+            }
+
+            return null;
         }
     }
 }
