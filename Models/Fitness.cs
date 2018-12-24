@@ -28,7 +28,7 @@ namespace UniScheduling.Models
 
                 if (course != null && room != null && course.Students > room.Size)
                 {
-                    roomCapacity++;
+                    roomCapacity += course.Students - room.Size;
                 }
             }
 
@@ -60,7 +60,7 @@ namespace UniScheduling.Models
                         var difference = sameCurricula[i].StartSlot - sameCurricula[i - 1].EndSlot;
                         if (difference > 1)
                         {
-                            windows += difference;
+                            windows += difference - 1;
                         }
                     }
                 }

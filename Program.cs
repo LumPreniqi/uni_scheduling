@@ -20,6 +20,7 @@ namespace UniScheduling
             var fitness = Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula);
             Console.WriteLine("Fitness: {0}", fitness);
 
+            solutions = Solution.SwapCourses(solutions);
             solutions = Solution.ChangeCourseRoom(solutions);
 
             fitness = Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula);
