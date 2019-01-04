@@ -63,8 +63,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Input\fim.xml" />
-    <Content Include="Input\fim2.xml" />
+    <Content Include="Input\FIM_A.xml" />
+    <Content Include="Input\FIM_S.xml" />
+    <Content Include="Input\FNA.xml" />
     <Content Include="Input\input.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>

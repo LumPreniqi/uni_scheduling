@@ -1,0 +1,3511 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE instance SYSTEM "http://tabu.diegm.uniud.it/ctt/cb_ctt.dtd">
+<instance name="FNAArchitectureInstance">
+	<descriptor>
+		<days value="5" />
+		<periods_per_day value="12" />
+		<daily_lectures min="1" max="6" />
+	</descriptor>
+	<courses>
+		<course id="c002" teacher="t001" lectures="1" min_days="1" students="30" double_lectures="True" />
+		<course id="c0021" teacher="t021" lectures="2" min_days="1" students="15" double_lectures="True" />
+		<course id="c0022" teacher="t021" lectures="2" min_days="1" students="15" double_lectures="True" />
+		<course id="c003" teacher="t001" lectures="1" min_days="1" students="30" double_lectures="True" />
+		<course id="c0031" teacher="t021" lectures="2" min_days="1" students="15" double_lectures="True" />
+		<course id="c0032" teacher="t021" lectures="2" min_days="1" students="15" double_lectures="True" />
+		<course id="c001" teacher="t007" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c0011" teacher="t020" lectures="1" min_days="1" students="15" double_lectures="True" />
+		<course id="c0012" teacher="t020" lectures="1" min_days="1" students="15" double_lectures="True" />
+		<course id="c006" teacher="t007" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c0061" teacher="t020" lectures="1" min_days="1" students="15" double_lectures="True" />
+		<course id="c0062" teacher="t020" lectures="1" min_days="1" students="15" double_lectures="True" />
+		<course id="c004" teacher="t010" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c005" teacher="t010" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c007" teacher="t008" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c0071" teacher="t021" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c0072" teacher="t021" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c008" teacher="t008" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c0081" teacher="t021" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c0082" teacher="t021" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c009" teacher="t019" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c0091" teacher="t001" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c0092" teacher="t001" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c010" teacher="t019" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c0101" teacher="t001" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c0102" teacher="t001" lectures="2" min_days="1" students="30" double_lectures="True" />
+		<course id="c011" teacher="t015" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c0111" teacher="t015" lectures="3" min_days="1" students="30" double_lectures="True" />
+		<course id="c0112" teacher="t015" lectures="3" min_days="1" students="30" double_lectures="True" />
+		<course id="c012" teacher="t015" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c0121" teacher="t015" lectures="3" min_days="1" students="30" double_lectures="True" />
+		<course id="c0122" teacher="t015" lectures="3" min_days="1" students="30" double_lectures="True" />
+		<course id="c013" teacher="t014" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c014" teacher="t014" lectures="2" min_days="1" students="60" double_lectures="True" />
+		<course id="c015" teacher="t017" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0151" teacher="t022" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0152" teacher="t022" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0153" teacher="t022" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0154" teacher="t022" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c016" teacher="t001" lectures="1" min_days="1" students="80" double_lectures="True" />
+		<course id="c0161" teacher="t021" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c0162" teacher="t021" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c0163" teacher="t021" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c0164" teacher="t021" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c017" teacher="t012" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0171" teacher="t023" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0172" teacher="t023" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0173" teacher="t023" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0174" teacher="t023" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c018" teacher="t024" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0181" teacher="t025" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0182" teacher="t025" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0183" teacher="t025" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0184" teacher="t025" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c019" teacher="t026" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c020" teacher="t005" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0201" teacher="t027" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0202" teacher="t027" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0203" teacher="t027" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0204" teacher="t028" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c021" teacher="t011" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0211" teacher="t029" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0212" teacher="t030" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0213" teacher="t031" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0214" teacher="t011" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c022" teacher="t016" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0221" teacher="t016" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0222" teacher="t016" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0223" teacher="t016" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0224" teacher="t016" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c023" teacher="t005" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0231" teacher="t015" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0232" teacher="t015" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0233" teacher="t027" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0234" teacher="t027" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c024" teacher="t002" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0241" teacher="t025" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0242" teacher="t025" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0243" teacher="t025" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0244" teacher="t025" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c025" teacher="t019" lectures="2" min_days="1" students="80" double_lectures="True" />
+		<course id="c0251" teacher="t032" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c0252" teacher="t032" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c0253" teacher="t032" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c0254" teacher="t032" lectures="1" min_days="1" students="20" double_lectures="True" />
+		<course id="c026" teacher="t016" lectures="2" min_days="1" students="40" double_lectures="True" />
+		<course id="c0261" teacher="t016" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c0262" teacher="t016" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c0263" teacher="t016" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c0264" teacher="t016" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c027" teacher="t010" lectures="2" min_days="1" students="40" double_lectures="True" />
+		<course id="c0271" teacher="t033" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c0272" teacher="t033" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c0273" teacher="t033" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c0274" teacher="t033" lectures="1" min_days="1" students="10" double_lectures="True" />
+		<course id="c028" teacher="t004" lectures="2" min_days="1" students="40" double_lectures="True" />
+		<course id="c0281" teacher="t031" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0282" teacher="t030" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0283" teacher="t029" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0284" teacher="t029" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c029" teacher="t034" lectures="2" min_days="1" students="40" double_lectures="True" />
+		<course id="c0291" teacher="t035" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0292" teacher="t035" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0293" teacher="t036" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0294" teacher="t036" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c030" teacher="t034" lectures="2" min_days="1" students="40" double_lectures="True" />
+		<course id="c0301" teacher="t035" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0302" teacher="t035" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0303" teacher="t036" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0304" teacher="t036" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c031" teacher="t037" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0311" teacher="t037" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0312" teacher="t037" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c032" teacher="t038" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0321" teacher="t038" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0322" teacher="t038" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c033" teacher="t004" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0331" teacher="t004" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c0332" teacher="t004" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c0333" teacher="t004" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c0334" teacher="t004" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c034" teacher="t004" lectures="2" min_days="1" students="20" double_lectures="True" />
+		<course id="c0341" teacher="t030" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c0342" teacher="t030" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c0343" teacher="t029" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c0344" teacher="t029" lectures="4" min_days="1" students="5" double_lectures="True" />
+		<course id="c035" teacher="t029" lectures="4" min_days="1" students="40" double_lectures="True" />
+		<course id="c0351" teacher="t029" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0352" teacher="t029" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c036" teacher="t002" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0361" teacher="t002" lectures="4" min_days="1" students="10" double_lectures="True" />
+		<course id="c0362" teacher="t002" lectures="4" min_days="1" students="10" double_lectures="True" />
+		<course id="c037" teacher="t039" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0371" teacher="t040" lectures="4" min_days="1" students="10" double_lectures="True" />
+		<course id="c0372" teacher="t040" lectures="4" min_days="1" students="10" double_lectures="True" />
+		<course id="c038" teacher="t010" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0381" teacher="t010" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0382" teacher="t010" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c039" teacher="t010" lectures="3" min_days="1" students="20" double_lectures="True" />
+		<course id="c0391" teacher="t033" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c0392" teacher="t033" lectures="2" min_days="1" students="10" double_lectures="True" />
+		<course id="c040" teacher="t005" lectures="4" min_days="1" students="40" double_lectures="True" />
+		<course id="c0401" teacher="t015" lectures="4" min_days="1" students="20" double_lectures="True" />
+		<course id="c0402" teacher="t015" lectures="4" min_days="1" students="20" double_lectures="True" />
+	</courses>
+	<rooms>
+		<room id="r001" size="120" building="1" />
+		<room id="r002 " size="50" building="2" />
+		<room id="r003" size="50" building="2" />
+		<room id="r004" size="50" building="2" />
+		<room id="r005" size="50" building="2" />
+		<room id="r006" size="50" building="2" />
+		<room id="r007" size="50" building="2" />
+		<room id="r008" size="50" building="2" />
+		<room id="r009" size="60" building="2" />
+		<room id="r010" size="50" building="3" />
+	</rooms>
+	<curricula>
+		<curriculum id="q001">
+			<course ref="c002" />
+			<course ref="c0021" />
+			<course ref="c001" />
+			<course ref="c0011" />
+			<course ref="c004" />
+			<course ref="c007" />
+			<course ref="c0071" />
+			<course ref="c009" />
+			<course ref="c0091" />
+			<course ref="c011" />
+			<course ref="c0111" />
+			<course ref="c013" />
+		</curriculum>
+		<curriculum id="q002">
+			<course ref="c002" />
+			<course ref="c0022" />
+			<course ref="c001" />
+			<course ref="c0012" />
+			<course ref="c004" />
+			<course ref="c007" />
+			<course ref="c0072" />
+			<course ref="c009" />
+			<course ref="c0092" />
+			<course ref="c011" />
+			<course ref="c0112" />
+			<course ref="c013" />
+		</curriculum>
+		<curriculum id="q003">
+			<course ref="c003" />
+			<course ref="c0031" />
+			<course ref="c006" />
+			<course ref="c0061" />
+			<course ref="c005" />
+			<course ref="c008" />
+			<course ref="c0081" />
+			<course ref="c010" />
+			<course ref="c0101" />
+			<course ref="c012" />
+			<course ref="c0121" />
+			<course ref="c014" />
+		</curriculum>
+		<curriculum id="q004">
+			<course ref="c003" />
+			<course ref="c0032" />
+			<course ref="c006" />
+			<course ref="c0062" />
+			<course ref="c005" />
+			<course ref="c008" />
+			<course ref="c0082" />
+			<course ref="c010" />
+			<course ref="c0102" />
+			<course ref="c012" />
+			<course ref="c0122" />
+			<course ref="c014" />
+		</curriculum>
+		<curriculum id="q005">
+			<course ref="c015" />
+			<course ref="c0151" />
+			<course ref="c016" />
+			<course ref="c0161" />
+			<course ref="c017" />
+			<course ref="c0171" />
+			<course ref="c018" />
+			<course ref="c0181" />
+			<course ref="c019" />
+			<course ref="c020" />
+			<course ref="c0201" />
+		</curriculum>
+		<curriculum id="q006">
+			<course ref="c015" />
+			<course ref="c0152" />
+			<course ref="c016" />
+			<course ref="c0162" />
+			<course ref="c017" />
+			<course ref="c0172" />
+			<course ref="c018" />
+			<course ref="c0182" />
+			<course ref="c019" />
+			<course ref="c020" />
+			<course ref="c0202" />
+		</curriculum>
+		<curriculum id="q007">
+			<course ref="c015" />
+			<course ref="c0153" />
+			<course ref="c016" />
+			<course ref="c0163" />
+			<course ref="c017" />
+			<course ref="c0173" />
+			<course ref="c018" />
+			<course ref="c0183" />
+			<course ref="c019" />
+			<course ref="c020" />
+			<course ref="c0203" />
+		</curriculum>
+		<curriculum id="q008">
+			<course ref="c015" />
+			<course ref="c0154" />
+			<course ref="c016" />
+			<course ref="c0164" />
+			<course ref="c017" />
+			<course ref="c0174" />
+			<course ref="c018" />
+			<course ref="c0184" />
+			<course ref="c019" />
+			<course ref="c020" />
+			<course ref="c0204" />
+		</curriculum>
+		<curriculum id="q009">
+			<course ref="c021" />
+			<course ref="c0211" />
+			<course ref="c022" />
+			<course ref="c0221" />
+			<course ref="c023" />
+			<course ref="c0231" />
+			<course ref="c024" />
+			<course ref="c0241" />
+			<course ref="c025" />
+			<course ref="c0251" />
+		</curriculum>
+		<curriculum id="q010">
+			<course ref="c021" />
+			<course ref="c0212" />
+			<course ref="c022" />
+			<course ref="c0222" />
+			<course ref="c023" />
+			<course ref="c0232" />
+			<course ref="c024" />
+			<course ref="c0242" />
+			<course ref="c025" />
+			<course ref="c0252" />
+		</curriculum>
+		<curriculum id="q011">
+			<course ref="c021" />
+			<course ref="c0213" />
+			<course ref="c022" />
+			<course ref="c0223" />
+			<course ref="c023" />
+			<course ref="c0233" />
+			<course ref="c024" />
+			<course ref="c0243" />
+			<course ref="c025" />
+			<course ref="c0253" />
+		</curriculum>
+		<curriculum id="q012">
+			<course ref="c021" />
+			<course ref="c0214" />
+			<course ref="c022" />
+			<course ref="c0224" />
+			<course ref="c023" />
+			<course ref="c0234" />
+			<course ref="c024" />
+			<course ref="c0244" />
+			<course ref="c025" />
+			<course ref="c0254" />
+		</curriculum>
+		<curriculum id="q013">
+			<course ref="c026" />
+			<course ref="c0261" />
+			<course ref="c027" />
+			<course ref="c0271" />
+			<course ref="c028" />
+			<course ref="c0281" />
+			<course ref="c029" />
+			<course ref="c0291" />
+			<course ref="c030" />
+			<course ref="c0301" />
+			<course ref="c031" />
+			<course ref="c0311" />
+		</curriculum>
+		<curriculum id="q014">
+			<course ref="c026" />
+			<course ref="c0262" />
+			<course ref="c027" />
+			<course ref="c0272" />
+			<course ref="c028" />
+			<course ref="c0282" />
+			<course ref="c029" />
+			<course ref="c0292" />
+			<course ref="c030" />
+			<course ref="c0302" />
+			<course ref="c031" />
+			<course ref="c0312" />
+		</curriculum>
+		<curriculum id="q015">
+			<course ref="c026" />
+			<course ref="c0263" />
+			<course ref="c027" />
+			<course ref="c0273" />
+			<course ref="c028" />
+			<course ref="c0283" />
+			<course ref="c029" />
+			<course ref="c0293" />
+			<course ref="c030" />
+			<course ref="c0303" />
+			<course ref="c031" />
+		</curriculum>
+		<curriculum id="q016">
+			<course ref="c026" />
+			<course ref="c0264" />
+			<course ref="c027" />
+			<course ref="c0274" />
+			<course ref="c028" />
+			<course ref="c0284" />
+			<course ref="c029" />
+			<course ref="c0294" />
+			<course ref="c030" />
+			<course ref="c0304" />
+			<course ref="c031" />
+		</curriculum>
+		<curriculum id="q017">
+			<course ref="c032" />
+			<course ref="c0321" />
+		</curriculum>
+		<curriculum id="q018">
+			<course ref="c032" />
+			<course ref="c0322" />
+		</curriculum>
+		<curriculum id="q019">
+			<course ref="c033" />
+			<course ref="c0331" />
+			<course ref="c035" />
+			<course ref="c0351" />
+			<course ref="c036" />
+			<course ref="c0361" />
+			<course ref="c038" />
+			<course ref="c0381" />
+			<course ref="c040" />
+			<course ref="c0401" />
+		</curriculum>
+		<curriculum id="q020">
+			<course ref="c033" />
+			<course ref="c0332" />
+			<course ref="c035" />
+			<course ref="c0352" />
+			<course ref="c036" />
+			<course ref="c0362" />
+			<course ref="c038" />
+			<course ref="c0382" />
+			<course ref="c040" />
+			<course ref="c0402" />
+		</curriculum>
+		<curriculum id="q021">
+			<course ref="c033" />
+			<course ref="c0333" />
+			<course ref="c035" />
+			<course ref="c036" />
+			<course ref="c038" />
+			<course ref="c040" />
+		</curriculum>
+		<curriculum id="q022">
+			<course ref="c033" />
+			<course ref="c0334" />
+			<course ref="c035" />
+			<course ref="c036" />
+			<course ref="c038" />
+			<course ref="c040" />
+		</curriculum>
+		<curriculum id="q023">
+			<course ref="c034" />
+			<course ref="c0341" />
+			<course ref="c037" />
+			<course ref="c0371" />
+			<course ref="c039" />
+			<course ref="c0391" />
+		</curriculum>
+		<curriculum id="q024">
+			<course ref="c034" />
+			<course ref="c0342" />
+			<course ref="c037" />
+			<course ref="c0372" />
+			<course ref="c039" />
+			<course ref="c0392" />
+		</curriculum>
+		<curriculum id="q025">
+			<course ref="c034" />
+			<course ref="c0343" />
+			<course ref="c037" />
+			<course ref="c039" />
+		</curriculum>
+		<curriculum id="q026">
+			<course ref="c034" />
+			<course ref="c0344" />
+			<course ref="c037" />
+			<course ref="c039" />
+		</curriculum>
+	</curricula>
+	<constraints>
+		<constraint type="period" course="p002">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c002">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0021">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0022">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c003">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0031">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0032">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p001">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c001">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0011">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0012">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c006">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0061">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0062">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p003">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c004">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c005">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="p004">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c007">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0071">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0072">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c008">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0081">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0082">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p005">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c009">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0091">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0092">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c010">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0101">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0102">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p006">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c011">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0111">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0112">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c012">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0121">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0122">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p007">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c013">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c014">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="p008">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c015">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0151">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0152">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0153">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0154">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p009">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c016">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0161">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0162">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0163">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0164">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p010">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c017">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0171">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0172">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0173">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0174">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p011">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c018">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0181">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0182">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0183">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0184">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p012">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c019">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="p013">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c020">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0201">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0202">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0203">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0204">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p014">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c021">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0211">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0212">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0213">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0214">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p015">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c022">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0221">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0222">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0223">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0224">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p016">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c023">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0231">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0232">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0233">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0234">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p017">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c024">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0241">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0242">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0243">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0244">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p018">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c025">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0251">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0252">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0253">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0254">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p019">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c026">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0261">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0262">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0263">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0264">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p020">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c027">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0271">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0272">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0273">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0274">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p021">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c028">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0281">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0282">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0283">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0284">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p022">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c029">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0291">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0292">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0293">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0294">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p023">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c030">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0301">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0302">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0303">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0304">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p024">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c031">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0311">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0312">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c032">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0321">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0322">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p025">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c033">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0331">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0332">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0333">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0334">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c034">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0341">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0342">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0343">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0344">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p026">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c035">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0351">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0352">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p027">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c036">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0361">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0362">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c037">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0371">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0372">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p028">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c038">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0381">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0382">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c039">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0391">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0392">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="p029">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c040">
+			<timeslot day="0" period="0" />
+			<timeslot day="0" period="5" />
+			<timeslot day="0" period="6" />
+			<timeslot day="0" period="7" />
+			<timeslot day="0" period="8" />
+			<timeslot day="0" period="9" />
+			<timeslot day="0" period="10" />
+			<timeslot day="0" period="11" />
+			<timeslot day="1" period="0" />
+			<timeslot day="1" period="5" />
+			<timeslot day="1" period="6" />
+			<timeslot day="1" period="7" />
+			<timeslot day="1" period="8" />
+			<timeslot day="1" period="9" />
+			<timeslot day="1" period="10" />
+			<timeslot day="1" period="11" />
+			<timeslot day="2" period="0" />
+			<timeslot day="2" period="5" />
+			<timeslot day="2" period="6" />
+			<timeslot day="2" period="7" />
+			<timeslot day="2" period="8" />
+			<timeslot day="2" period="9" />
+			<timeslot day="2" period="10" />
+			<timeslot day="2" period="11" />
+			<timeslot day="3" period="0" />
+			<timeslot day="3" period="5" />
+			<timeslot day="3" period="6" />
+			<timeslot day="3" period="7" />
+			<timeslot day="3" period="8" />
+			<timeslot day="3" period="9" />
+			<timeslot day="3" period="10" />
+			<timeslot day="3" period="11" />
+			<timeslot day="4" period="0" />
+			<timeslot day="4" period="5" />
+			<timeslot day="4" period="6" />
+			<timeslot day="4" period="7" />
+			<timeslot day="4" period="8" />
+			<timeslot day="4" period="9" />
+			<timeslot day="4" period="10" />
+			<timeslot day="4" period="11" />
+		</constraint>
+		<constraint type="period" course="c0401">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="period" course="c0402">
+			<timeslot day="0" period="0" />
+			<timeslot day="1" period="0" />
+			<timeslot day="2" period="0" />
+			<timeslot day="3" period="0" />
+			<timeslot day="4" period="0" />
+		</constraint>
+		<constraint type="room" course="c002">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0021">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0022">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c003">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0031">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0032">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c001">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0011">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0012">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c006">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0061">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0062">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c004">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c005">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c007">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0071">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0072">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c008">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0081">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0082">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c009">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0091">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0092">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c010">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0101">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0102">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c011">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0111">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0112">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c012">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0121">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0122">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c013">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c014">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c015">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0151">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0152">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0153">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0154">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c016">
+			<room ref="r002 " />
+		</constraint>
+		<constraint type="room" course="c0161">
+			<room ref="r002 " />
+		</constraint>
+		<constraint type="room" course="c0162">
+			<room ref="r002 " />
+		</constraint>
+		<constraint type="room" course="c0163">
+			<room ref="r002 " />
+		</constraint>
+		<constraint type="room" course="c0164">
+			<room ref="r002 " />
+		</constraint>
+		<constraint type="room" course="c017">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0171">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0172">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0173">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0174">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c018">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0181">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0182">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0183">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0184">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c019">
+			<room ref="r009" />
+		</constraint>
+		<constraint type="room" course="c020">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0201">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0202">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0203">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0204">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c021">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0211">
+			<room ref="r006" />
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0212">
+			<room ref="r006" />
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0213">
+			<room ref="r006" />
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0214">
+			<room ref="r006" />
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c022">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0221">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0222">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0223">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0224">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c023">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0231">
+			<room ref="r004" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0232">
+			<room ref="r004" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0233">
+			<room ref="r004" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0234">
+			<room ref="r004" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c024">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0241">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0242">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0243">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0244">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c025">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0251">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0252">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0253">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c0254">
+			<room ref="r008" />
+		</constraint>
+		<constraint type="room" course="c026">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0261">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0262">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0263">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0264">
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c027">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0271">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0272">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0273">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0274">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c028">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0281">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0282">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0283">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0284">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c029">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0291">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0292">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0293">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c0294">
+			<room ref="r010" />
+		</constraint>
+		<constraint type="room" course="c031">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0311">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0312">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c032">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0321">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c0322">
+			<room ref="r007" />
+		</constraint>
+		<constraint type="room" course="c033">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0331">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0332">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0333">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0334">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c034">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0341">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0342">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0343">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0344">
+			<room ref="r004" />
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c035">
+			<room ref="r003" />
+		</constraint>
+		<constraint type="room" course="c0351">
+			<room ref="r003" />
+		</constraint>
+		<constraint type="room" course="c0352">
+			<room ref="r003" />
+		</constraint>
+		<constraint type="room" course="c036">
+			<room ref="r001" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0361">
+			<room ref="r001" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0362">
+			<room ref="r001" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c037">
+			<room ref="r001" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0371">
+			<room ref="r001" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c0372">
+			<room ref="r001" />
+			<room ref="r005" />
+		</constraint>
+		<constraint type="room" course="c038">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0381">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0382">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c039">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0391">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c0392">
+			<room ref="r001" />
+		</constraint>
+		<constraint type="room" course="c040">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0401">
+			<room ref="r006" />
+		</constraint>
+		<constraint type="room" course="c0402">
+			<room ref="r006" />
+		</constraint>
+	</constraints>
+</instance>

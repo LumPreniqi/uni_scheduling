@@ -168,13 +168,19 @@ namespace UniScheduling.Models
             return rooms.OrderBy(rm => Math.Abs(rm.Size - students)).First().Id;
         }
 
-        public static List<SolutionRow> ChangeCourseRoom(List<SolutionRow> solutions)
+        public static List<SolutionRow> ChangeCourseRoom(List<SolutionRow> s)
         {
+            var solutions = new List<SolutionRow>(s);
+
             var rnd = new Random();
             var index = rnd.Next(Courses.Count);
             var course = Courses[index];
             var availableRooms = GetRooms(course);
             var solutionIndex = solutions.FindIndex(x => x.CourseId == course.Id);
+            if (solutionIndex == -1)
+            {
+                return solutions;
+            }
             availableRooms.Remove(Rooms.First(x => x.Id == solutions[solutionIndex].RoomId));
 
             var getExistingSolutions = solutions.Where(x => x.Day == solutions[solutionIndex].Day)
@@ -184,6 +190,11 @@ namespace UniScheduling.Models
 
             var busyRoomIds = getExistingSolutions.Select(x => x.RoomId).ToList();
             availableRooms = availableRooms.Where(x => !busyRoomIds.Contains(x.Id)).ToList();
+
+            if (course.Students < Rooms.First(x => x.Id == solutions[solutionIndex].RoomId).Size)
+            {
+                return solutions;
+            }
             
             if (availableRooms.Count() == 0)
             {
@@ -194,19 +205,24 @@ namespace UniScheduling.Models
 
             if (bestAvailableRooms.Count() == 0)
             {
-                solutions[solutionIndex].RoomId = availableRooms[rnd.Next(availableRooms.Count)].Id;
+                var solutionRow = solutions[solutionIndex];
+                solutions.Remove(solutionRow);
+                solutions.Add(new SolutionRow(course, availableRooms[rnd.Next(availableRooms.Count)].Id, solutionRow.StartSlot, solutionRow.EndSlot, solutionRow.Day));
             }
             else
             {
                 bestAvailableRooms = bestAvailableRooms.OrderBy(x => x.Size).ToList();
-                solutions[solutionIndex].RoomId = bestAvailableRooms.First().Id;
+                var solutionRow = solutions[solutionIndex];
+                solutions.Remove(solutionRow);
+                solutions.Add(new SolutionRow(course, bestAvailableRooms.First().Id, solutionRow.StartSlot, solutionRow.EndSlot, solutionRow.Day));
             }
 
             return solutions;
         }
 
-        public static List<SolutionRow> SwapCourses(List<SolutionRow> solutions)
+        public static List<SolutionRow> SwapCourses(List<SolutionRow> s)
         {
+            var solutions = new List<SolutionRow>(s);
             var rnd = new Random();
             var dayIndex = rnd.Next(Days);
             var daySolutions = solutions.Where(x => x.Day == dayIndex);
@@ -259,5 +275,59 @@ namespace UniScheduling.Models
 
             return solutions;
         }
+
+        public static List<SolutionRow> FindBetterSolution(List<SolutionRow> solutions, int iterations)
+        {
+            var best = new List<SolutionRow>(solutions);
+            var s = new List<SolutionRow>(solutions);
+            var h = new List<SolutionRow>(solutions);
+
+            var fitness1 = 0;
+            var fitness2 = 0;
+
+            for (int i = 0; i < iterations; i++)
+            {
+                for (int j = 0; j < iterations; j++)
+                {
+                    var r = ChangeCourseRoom(s);
+
+                    fitness1 = Fitness.CheckFitness(r, Days, Courses, Rooms, Curricula);
+                    fitness2 = Fitness.CheckFitness(s, Days, Courses, Rooms, Curricula);
+                    s = fitness1 > fitness2 ? s : r;
+                }
+
+                fitness1 = Fitness.CheckFitness(s, Days, Courses, Rooms, Curricula);
+                fitness2 = Fitness.CheckFitness(best, Days, Courses, Rooms, Curricula);
+                Console.WriteLine("Fitness S: " + fitness1.ToString());
+                Console.WriteLine("Fitness Best: " + fitness2.ToString());
+                best = fitness1 > fitness2 ? best : s;
+
+                h = NewHomeBase(h, s);
+                s = Perturb(h);
+            }
+
+            return best;
+        }
+
+        public static List<SolutionRow> Perturb(List<SolutionRow> s)
+        {
+            var solutions = new List<SolutionRow>(s);
+
+            for (int i = 0; i < 5; i++)
+            {
+                solutions = SwapCourses(solutions);
+            }
+
+            return solutions;
+        }
+
+        public static List<SolutionRow> NewHomeBase(List<SolutionRow> h, List<SolutionRow> s)
+        {
+            var fitness1 = Fitness.CheckFitness(h, Days, Courses, Rooms, Curricula);
+            var fitness2 = Fitness.CheckFitness(s, Days, Courses, Rooms, Curricula);
+
+            return fitness1 >= fitness2 ? s : h;
+        }
+
     }
 }

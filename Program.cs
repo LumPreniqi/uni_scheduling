@@ -17,19 +17,18 @@ namespace UniScheduling
             IO.Read();
             var solutions = Solution.Generate();
 
-            var fitness = Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula);
-            Console.WriteLine("Fitness: {0}", fitness);
+            Console.WriteLine("Initial Fitness: {0}", Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
 
-            solutions = Solution.SwapCourses(solutions);
-            solutions = Solution.ChangeCourseRoom(solutions);
+            var best = Solution.FindBetterSolution(solutions, 10);
 
-            fitness = Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula);
-            Console.WriteLine("Fitness: {0}", fitness);
+            Console.WriteLine("Initial Fitness: {0}", Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
+            Console.WriteLine("Best Fitness: {0}", Fitness.CheckFitness(best, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
 
-            IO.Write(solutions);
+            // IO.Write(solutions);
 
             Console.WriteLine("DONE!");
             Console.ReadKey();
         }
+
     }
 }

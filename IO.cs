@@ -14,7 +14,7 @@ namespace UniScheduling
         public static void Read()
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("Input\\fim.xml");
+            doc.Load("Input\\FIM_S.xml");
             XmlElement root = doc.DocumentElement;
 
             XmlNode parentNode = root.SelectSingleNode("courses");
