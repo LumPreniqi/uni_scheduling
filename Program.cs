@@ -19,12 +19,12 @@ namespace UniScheduling
 
             Console.WriteLine("Initial Fitness: {0}", Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
 
-            var best = Solution.FindBetterSolution(solutions, 10);
+            var best = Solution.FindBetterSolution(solutions, 3);
 
             Console.WriteLine("Initial Fitness: {0}", Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
             Console.WriteLine("Best Fitness: {0}", Fitness.CheckFitness(best, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
 
-            // IO.Write(solutions);
+            IO.Write(best);
 
             Console.WriteLine("DONE!");
             Console.ReadKey();

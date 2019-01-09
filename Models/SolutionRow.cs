@@ -14,15 +14,19 @@ namespace UniScheduling.Models
         public int EndSlot { get; set; }
         public string TeacherId { get; set; }
         public int Day { get; set; }
+        public bool IsRoomCorrect { get; set; }
+        public Course Course { get; set; }
 
-        public SolutionRow(Course Course, string RoomId, int StartSlot, int EndSlot, int Day)
+        public SolutionRow(Course Course, Room Room, int StartSlot, int EndSlot, int Day)
         {
             this.CourseId = Course.Id;
-            this.RoomId = RoomId;
+            this.Course = Course;
+            this.RoomId = Room.Id;
             this.StartSlot = StartSlot;
             this.EndSlot = EndSlot;
             this.Day = Day;
             this.TeacherId = Course.TeacherId;
+            this.IsRoomCorrect = Course.Students <= Room.Size;
         }
 
         public override string ToString()

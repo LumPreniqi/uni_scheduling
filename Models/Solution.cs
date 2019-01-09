@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +34,7 @@ namespace UniScheduling.Models
                     var startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
                     if (startSlot != -1)
                     {
-                        solutions.Add(new SolutionRow(course, RoomId, startSlot, startSlot + lectureSlots, day));
+                        solutions.Add(new SolutionRow(course, Rooms.First(x => x.Id == RoomId), startSlot, startSlot + lectureSlots, day));
                         Console.WriteLine("{0} {1} {2} {3}", course.Id, RoomId, day, startSlot);
 
                         //Console.WriteLine("Course ID: {0} / Teacher ID: {1} / Room ID: {2} / Day: {3} / Slot: {4}", course.Id, course.TeacherId, RoomId, day, startSlot);
@@ -173,14 +174,13 @@ namespace UniScheduling.Models
             var solutions = new List<SolutionRow>(s);
 
             var rnd = new Random();
-            var index = rnd.Next(Courses.Count);
-            var course = Courses[index];
+            var notCorrectRooms = solutions.Where(x => !x.IsRoomCorrect).ToList();
+            var solution = notCorrectRooms[rnd.Next(notCorrectRooms.Count)];
+            
+            var course = solution.Course;
             var availableRooms = GetRooms(course);
             var solutionIndex = solutions.FindIndex(x => x.CourseId == course.Id);
-            if (solutionIndex == -1)
-            {
-                return solutions;
-            }
+
             availableRooms.Remove(Rooms.First(x => x.Id == solutions[solutionIndex].RoomId));
 
             var getExistingSolutions = solutions.Where(x => x.Day == solutions[solutionIndex].Day)
@@ -207,14 +207,15 @@ namespace UniScheduling.Models
             {
                 var solutionRow = solutions[solutionIndex];
                 solutions.Remove(solutionRow);
-                solutions.Add(new SolutionRow(course, availableRooms[rnd.Next(availableRooms.Count)].Id, solutionRow.StartSlot, solutionRow.EndSlot, solutionRow.Day));
+                var newRoom = availableRooms[rnd.Next(availableRooms.Count)];
+                solutions.Add(new SolutionRow(course, newRoom, solutionRow.StartSlot, solutionRow.EndSlot, solutionRow.Day));
             }
             else
             {
                 bestAvailableRooms = bestAvailableRooms.OrderBy(x => x.Size).ToList();
                 var solutionRow = solutions[solutionIndex];
                 solutions.Remove(solutionRow);
-                solutions.Add(new SolutionRow(course, bestAvailableRooms.First().Id, solutionRow.StartSlot, solutionRow.EndSlot, solutionRow.Day));
+                solutions.Add(new SolutionRow(course, bestAvailableRooms.First(), solutionRow.StartSlot, solutionRow.EndSlot, solutionRow.Day));
             }
 
             return solutions;
@@ -256,6 +257,7 @@ namespace UniScheduling.Models
             var availableRooms = GetRooms(course);
             var curriculaCourses = GetCurriculumCourses(course);
             var lectureSlots = course.GetSlots();
+            var startSlot = -1;
 
             for (int day = 0; day < Days; day++)
             {
@@ -264,19 +266,28 @@ namespace UniScheduling.Models
                     continue;
                 }
 
-                var startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
+                startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
                 if (startSlot != -1)
                 {
-                    solutions.Add(new SolutionRow(course, RoomId, startSlot, startSlot + lectureSlots, day));
+                    solutions.Add(new SolutionRow(course, Rooms.FirstOrDefault(x => x.Id == RoomId), startSlot, startSlot + lectureSlots, day));
                     //Console.WriteLine("{0} {1} {2} {3}", course.Id, RoomId, day, startSlot);
                     break;
+                }
+            }
+
+            if (startSlot == -1)
+            {
+                startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, existingDay, lectureSlots);
+                if (startSlot != -1)
+                {
+                    solutions.Add(new SolutionRow(course, Rooms.FirstOrDefault(x => x.Id == RoomId), startSlot, startSlot + lectureSlots, existingDay));
                 }
             }
 
             return solutions;
         }
 
-        public static List<SolutionRow> FindBetterSolution(List<SolutionRow> solutions, int iterations)
+        public static List<SolutionRow> FindBetterSolution(List<SolutionRow> solutions, int minutes)
         {
             var best = new List<SolutionRow>(solutions);
             var s = new List<SolutionRow>(solutions);
@@ -285,9 +296,12 @@ namespace UniScheduling.Models
             var fitness1 = 0;
             var fitness2 = 0;
 
-            for (int i = 0; i < iterations; i++)
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
+            while (sw.Elapsed.TotalMinutes < minutes)
             {
-                for (int j = 0; j < iterations; j++)
+                for (int j = 0; j < 10; j++)
                 {
                     var r = ChangeCourseRoom(s);
 
@@ -306,6 +320,8 @@ namespace UniScheduling.Models
                 s = Perturb(h);
             }
 
+            sw.Stop();
+
             return best;
         }
 
@@ -313,7 +329,7 @@ namespace UniScheduling.Models
         {
             var solutions = new List<SolutionRow>(s);
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 3; i++)
             {
                 solutions = SwapCourses(solutions);
             }
