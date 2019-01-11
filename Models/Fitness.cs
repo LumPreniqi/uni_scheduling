@@ -75,7 +75,7 @@ namespace UniScheduling.Models
             {
                 var sameCurricula = new List<SolutionRow>();
 
-                foreach (var s in solutions.Where(x => x.Day == day))
+                foreach (var s in solutions)
                 {
                     if (curricula.Courses.Contains(Courses.First(x => x.Id == s.CourseId)))
                     {

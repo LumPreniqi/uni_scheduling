@@ -14,7 +14,8 @@ namespace UniScheduling
     {
         static void Main(string[] args)
         {
-            IO.Read();
+            var input = "FIM_S";
+            IO.Read(input);
             var solutions = Solution.Generate();
 
             Console.WriteLine("Initial Fitness: {0}", Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
@@ -22,9 +23,10 @@ namespace UniScheduling
             var best = Solution.FindBetterSolution(solutions, 3);
 
             Console.WriteLine("Initial Fitness: {0}", Fitness.CheckFitness(solutions, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
-            Console.WriteLine("Best Fitness: {0}", Fitness.CheckFitness(best, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula));
+            var score = Fitness.CheckFitness(best, Solution.Days, Solution.Courses, Solution.Rooms, Solution.Curricula);
+            Console.WriteLine("Best Fitness: {0}", score);
 
-            IO.Write(best);
+            IO.Write(best, input + " Solution - " + score);
 
             Console.WriteLine("DONE!");
             Console.ReadKey();

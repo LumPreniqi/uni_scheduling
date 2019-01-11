@@ -3,8 +3,10 @@
 <instance name="CBCTTInstance_FIM_Spring_Semester">
 	<descriptor>
 		<days value="5" />
-		<periods_per_day value="11" />
+		<periods_per_day value="48" />
 		<daily_lectures min="1" max="6" />
+    <slots_per_lecture value="3" />
+    <apply_breaks value="True" />
 	</descriptor>
 	<courses>
 		<course id="c150" teacher="t002" lectures="3" min_days="1" students="95" double_lectures="True" />
@@ -315,7 +317,7 @@
 	</courses>
 	<rooms>
 		<room id="r001" size="150" building="1" />
-		<room id="r002 " size="100" building="1" />
+		<room id="r002" size="100" building="1" />
 		<room id="r003" size="60" building="1" />
 		<room id="r004" size="200" building="1" />
 		<room id="r005" size="50" building="2" />

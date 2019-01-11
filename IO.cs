@@ -11,10 +11,10 @@ namespace UniScheduling
 {
     class IO
     {
-        public static void Read()
+        public static void Read(string input)
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("Input\\FIM_S.xml");
+            doc.Load("Input\\" + input + ".xml");
             XmlElement root = doc.DocumentElement;
 
             XmlNode parentNode = root.SelectSingleNode("courses");
@@ -67,9 +67,9 @@ namespace UniScheduling
             }
         }
 
-        public static void Write(List<SolutionRow> solutions)
+        public static void Write(List<SolutionRow> solutions, string ouput)
         {
-            string path = "Output/solution.txt";
+            string path = "Output/" + ouput + ".txt";
 
             using (StreamWriter writeSolution = new StreamWriter(path))
             {
