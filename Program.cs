@@ -14,7 +14,7 @@ namespace UniScheduling
     {
         static void Main(string[] args)
         {
-            var input = "FIM_S";
+            var input = "FME-S";
             IO.Read(input);
             var solutions = Solution.Generate();
 

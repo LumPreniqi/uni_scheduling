@@ -290,19 +290,22 @@ namespace UniScheduling.Models
             var lectureSlots = course.GetSlots();
             var startSlot = -1;
 
-            for (int day = Days - 1; day >= 0; day--)
+            if (availableRooms.Count > 0)
             {
-                if (day == existingDay)
+                for (int day = Days - 1; day >= 0; day--)
                 {
-                    continue;
-                }
+                    if (day == existingDay)
+                    {
+                        continue;
+                    }
 
-                startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
-                if (startSlot != -1)
-                {
-                    solutions.Add(new SolutionRow(course, Rooms.FirstOrDefault(x => x.Id == RoomId), startSlot, startSlot + lectureSlots, day));
-                    //Console.WriteLine("{0} {1} {2} {3}", course.Id, RoomId, day, startSlot);
-                    break;
+                    startSlot = FindSolution(solutions, course, availableRooms, curriculaCourses, day, lectureSlots);
+                    if (startSlot != -1)
+                    {
+                        solutions.Add(new SolutionRow(course, Rooms.FirstOrDefault(x => x.Id == RoomId), startSlot, startSlot + lectureSlots, day));
+                        //Console.WriteLine("{0} {1} {2} {3}", course.Id, RoomId, day, startSlot);
+                        break;
+                    }
                 }
             }
 

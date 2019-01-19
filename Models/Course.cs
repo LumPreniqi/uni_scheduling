@@ -39,7 +39,7 @@ namespace UniScheduling.Models
                 periods = 2;
             }
 
-            return timeSlots + periods;
+            return timeSlots + periods - 1;
         }
     }
 }

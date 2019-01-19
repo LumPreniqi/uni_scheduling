@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE instance SYSTEM "http://tabu.diegm.uniud.it/ctt/cb_ctt.dtd">
-<instance name="CBCTTInstance_FIM_Autum_Semester">
+<instance name="FIMAutumnInstance">
 	<descriptor>
 		<days value="5" />
-		<periods_per_day value="48" />
+		<periods_per_day value="12" />
 		<daily_lectures min="1" max="6" />
-		<slots_per_lecture value="3" />
-		<apply_breaks value="True" />
 	</descriptor>
 	<courses>
 		<course id="c001" teacher="t002" lectures="3" min_days="1" students="80" double_lectures="True" />
@@ -3171,1149 +3169,5725 @@
 			<timeslot day="4" period="10" />
 		</constraint>
 		<constraint type="room" course="c001">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0011">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0012">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c002">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0021">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0022">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c003">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0031">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0032">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c004">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0041">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0042">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c005">
-			<room ref="r001" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0051">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0052">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0053">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c006">
-			<room ref="r001" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0061">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0062">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0063">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c007">
-			<room ref="r001" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0071">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0072">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0073">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c008">
-			<room ref="r001" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0081">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0082">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0083">
-			<room ref="r003" />
-			<room ref="r004" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c009">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0091">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0092">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c010">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0101">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0102">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c011">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0111">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0112">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c012">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0121">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0122">
-			<room ref="r001" />
-			<room ref="r005" />
-			<room ref="r006" />
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c021">
-			<room ref="r001" />
-			<room ref="r004" />
+			<room ref="r002 " />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0211">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0212">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0213">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c022">
-			<room ref="r001" />
-			<room ref="r004" />
+			<room ref="r002 " />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0221">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0222">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0223">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c023">
-			<room ref="r001" />
-			<room ref="r004" />
+			<room ref="r002 " />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0231">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0232">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0233">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c024">
-			<room ref="r001" />
-			<room ref="r004" />
+			<room ref="r002 " />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0241">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0242">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0243">
-			<room ref="r007" />
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c013">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c014">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c015">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c016">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c017">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c018">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c019">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c020">
-			<room ref="r001" />
-			<room ref="r004" />
-			<room ref="r009" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c025">
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0251">
-			<room ref="r003" />
-			<room ref="r009" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c026">
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0261">
-			<room ref="r003" />
-			<room ref="r009" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c027">
-			<room ref="r009" />
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0271">
-			<room ref="r003" />
-			<room ref="r009" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c028">
-			<room ref="r002 " />
-			<room ref="r009" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0281">
-			<room ref="r003" />
-			<room ref="r009" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c029">
-			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0291">
-			<room ref="r006" />
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0292">
-			<room ref="r006" />
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c030">
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c0301">
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c0302">
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c031">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0311">
-			<room ref="r003" />
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c032">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0321">
-			<room ref="r003" />
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c033">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c034">
-			<room ref="r001" />
-			<room ref="r003" />
-		</constraint>
-		<constraint type="room" course="c035">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c036">
-			<room ref="r001" />
-			<room ref="r003" />
-		</constraint>
-		<constraint type="room" course="c037">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c038">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c0381">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c039">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c0391">
-			<room ref="r003" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c040">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c0401">
-			<room ref="r005" />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c0402">
-			<room ref="r005" />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c0403">
-			<room ref="r005" />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c041">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0411">
-			<room ref="r005" />
-		</constraint>
-		<constraint type="room" course="c042">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c043">
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c0431">
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c044">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c0441">
-			<room ref="r008" />
-		</constraint>
-		<constraint type="room" course="c0442">
-			<room ref="r008" />
-		</constraint>
-		<constraint type="room" course="c045">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0451">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c046">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0461">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c047">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c0471">
-			<room ref="r013" />
-		</constraint>
-		<constraint type="room" course="c048">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0481">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c049">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0491">
-			<room ref="r013" />
-		</constraint>
-		<constraint type="room" course="c050">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0501">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c051">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0511">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c052">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0521">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c053">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0531">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c054">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0541">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c055">
-			<room ref="r013" />
-		</constraint>
-		<constraint type="room" course="c0551">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c056">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0561">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c057">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c0571">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c058">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0581">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c059">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c0591">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c060">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c0601">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c061">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c0611">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c062">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c0621">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c063">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c0631">
-			<room ref="r025" />
-		</constraint>
-		<constraint type="room" course="c064">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0641">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c065">
-			<room ref="r002 " />
-			<room ref="r007" />
-		</constraint>
-		<constraint type="room" course="c0651">
-			<room ref="r026" />
-		</constraint>
-		<constraint type="room" course="c066">
-			<room ref="r026" />
-		</constraint>
-		<constraint type="room" course="c0661">
-			<room ref="r026" />
-		</constraint>
-		<constraint type="room" course="c067">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c0671">
-			<room ref="r008" />
-		</constraint>
-		<constraint type="room" course="c068">
-			<room ref="r008" />
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c0681">
 			<room ref="r001" />
 			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0292">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c030">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0301">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0302">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c031">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0311">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c032">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0321">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c033">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c034">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c035">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c036">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c037">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c038">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0381">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c039">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0391">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c040">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0401">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0402">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0403">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c041">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0411">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c042">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c043">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0431">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c044">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0441">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0442">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c045">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0451">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c046">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0461">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c047">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0471">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c048">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0481">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c049">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0491">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c050">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0501">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c051">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0511">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c052">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0521">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c053">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0531">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c054">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0541">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c055">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0551">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c056">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0561">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c057">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0571">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c058">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0581">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c059">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0591">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c060">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0601">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c061">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0611">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c062">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0621">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c063">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0631">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c064">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0641">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c065">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0651">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c066">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0661">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c067">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0671">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c068">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0681">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c069">
-			<room ref="r007" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0691">
-			<room ref="r007" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c070">
-			<room ref="r007" />
-			<room ref="r009" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0701">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c071">
-			<room ref="r020" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0711">
-			<room ref="r013" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c072">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0721">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c073">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0731">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c074">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0741">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c075">
-			<room ref="r016" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0751">
-			<room ref="r015" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c076">
-			<room ref="r017" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0761">
-			<room ref="r003" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c077">
-			<room ref="r015" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0771">
-			<room ref="r014" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c078">
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0781">
-			<room ref="r006" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c079">
-			<room ref="r006" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c0791">
-			<room ref="r026" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c080">
-			<room ref="r019" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c0801">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c081">
-			<room ref="r003" />
-		</constraint>
-		<constraint type="room" course="c0811">
-			<room ref="r002 " />
-			<room ref="r007" />
-		</constraint>
-		<constraint type="room" course="c082">
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c0821">
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c083">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c0831">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c084">
-			<room ref="r001" />
-		</constraint>
-		<constraint type="room" course="c0841">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c085">
-			<room ref="r002 " />
-			<room ref="r007" />
-		</constraint>
-		<constraint type="room" course="c0851">
-			<room ref="r002 " />
-			<room ref="r007" />
-		</constraint>
-		<constraint type="room" course="c086">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c0861">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c087">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c0871">
-			<room ref="r002 " />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c088">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c0881">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c089">
-			<room ref="r015" />
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c0891">
-			<room ref="r010" />
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c090">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c0901">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c091">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c0911">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c092">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c0921">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c093">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c0931">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c094">
-			<room ref="r025" />
-		</constraint>
-		<constraint type="room" course="c0941">
-			<room ref="r025" />
-		</constraint>
-		<constraint type="room" course="c095">
 			<room ref="r005" />
-		</constraint>
-		<constraint type="room" course="c0951">
-			<room ref="r005" />
-		</constraint>
-		<constraint type="room" course="c096">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c0961">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c097">
+			<room ref="r011" />
+			<room ref="r013" />
 			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c0971">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c098">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0981">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c099">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c0991">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c100">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c1001">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c101">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c1011">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c102">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c1021">
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c103">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c1031">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c104">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c1041">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c105">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c1051">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c106">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1061">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c107">
-			<room ref="r014" />
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c1071">
-			<room ref="r014" />
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c108">
-			<room ref="r014" />
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c1081">
-			<room ref="r014" />
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c109">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c1091">
-			<room ref="r025" />
-		</constraint>
-		<constraint type="room" course="c110">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c1101">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c111">
-			<room ref="r014" />
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c1111">
-			<room ref="r014" />
-			<room ref="r020" />
-		</constraint>
-		<constraint type="room" course="c112">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1121">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c113">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1131">
-			<room ref="r014" />
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c114">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1141">
-			<room ref="r025" />
-		</constraint>
-		<constraint type="room" course="c115">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c1151">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c116">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c1161">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c117">
-			<room ref="r002 " />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c1171">
-			<room ref="r002 " />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c118">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c1181">
-			<room ref="r003" />
-		</constraint>
-		<constraint type="room" course="c119">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c1191">
-			<room ref="r003" />
-		</constraint>
-		<constraint type="room" course="c120">
-			<room ref="r010" />
-		</constraint>
-		<constraint type="room" course="c1201">
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c121">
-			<room ref="r002 " />
-		</constraint>
-		<constraint type="room" course="c1211">
+			<room ref="r017" />
+			<room ref="r018" />
 			<room ref="r019" />
-		</constraint>
-		<constraint type="room" course="c122">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1221">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c123">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c1231">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c124">
-			<room ref="r016" />
-		</constraint>
-		<constraint type="room" course="c1241">
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c125">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c1251">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c126">
-			<room ref="r001" />
-			<room ref="r006" />
-		</constraint>
-		<constraint type="room" course="c1261">
-			<room ref="r005" />
-		</constraint>
-		<constraint type="room" course="c127">
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c1271">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c128">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c1281">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c129">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c1291">
-			<room ref="r017" />
-		</constraint>
-		<constraint type="room" course="c130">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1301">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c131">
-			<room ref="r002 " />
-			<room ref="r007" />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c1311">
-			<room ref="r002 " />
-			<room ref="r007" />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c132">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c1321">
-			<room ref="r014" />
-		</constraint>
-		<constraint type="room" course="c133">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c1331">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c134">
-			<room ref="r002 " />
-			<room ref="r009" />
-		</constraint>
-		<constraint type="room" course="c1341">
+			<room ref="r021" />
+			<room ref="r023" />
 			<room ref="r025" />
-		</constraint>
-		<constraint type="room" course="c135">
-			<room ref="r024" />
-		</constraint>
-		<constraint type="room" course="c136">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c1361">
-			<room ref="r015" />
-		</constraint>
-		<constraint type="room" course="c137">
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c1371">
-			<room ref="r022" />
-		</constraint>
-		<constraint type="room" course="c138">
-			<room ref="r019" />
-		</constraint>
-		<constraint type="room" course="c1381">
 			<room ref="r026" />
 		</constraint>
-		<constraint type="room" course="c139">
+		<constraint type="room" course="c081">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
 			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0811">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c082">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0821">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c083">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0831">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c084">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0841">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c085">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0851">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c086">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0861">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c087">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0871">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c088">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0881">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c089">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0891">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c090">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0901">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c091">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0911">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c092">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0921">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c093">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0931">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c094">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0941">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c095">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0951">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c096">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0961">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c097">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0971">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c098">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c0981">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c099">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c0991">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c100">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1001">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c101">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1011">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c102">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1021">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c103">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1031">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c104">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1041">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c105">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1051">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c106">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1061">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c107">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1071">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c108">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1081">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c109">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1091">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c110">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1101">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c111">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1111">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c112">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1121">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c113">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1131">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c114">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1141">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c115">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1151">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c116">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1161">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c117">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1171">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c118">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1181">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c119">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1191">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c120">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1201">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c121">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1211">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c122">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1221">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c123">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1231">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c124">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1241">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c125">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1251">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c126">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1261">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c127">
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+		</constraint>
+		<constraint type="room" course="c1271">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c128">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1281">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c129">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1291">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c130">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1301">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c131">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1311">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c132">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1321">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c133">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1331">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c134">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1341">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c135">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c136">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1361">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c137">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1371">
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c138">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c1381">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r027" />
+		</constraint>
+		<constraint type="room" course="c139">
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1391">
-			<room ref="r008" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c140">
-			<room ref="r014" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1401">
-			<room ref="r014" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c141">
-			<room ref="r022" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1411">
-			<room ref="r019" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c142">
-			<room ref="r019" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1421">
-			<room ref="r003" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c143">
-			<room ref="r027" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c1431">
-			<room ref="r027" />
+			<room ref="r005" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
 		</constraint>
 		<constraint type="room" course="c144">
-			<room ref="r002 " />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1441">
-			<room ref="r002 " />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c145">
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1451">
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c146">
-			<room ref="r010" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1461">
-			<room ref="r002 " />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c147">
-			<room ref="r019" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c1471">
-			<room ref="r019" />
+			<room ref="r001" />
+			<room ref="r002 " />
+			<room ref="r003" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r007" />
+			<room ref="r008" />
+			<room ref="r009" />
+			<room ref="r010" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r014" />
+			<room ref="r015" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r020" />
+			<room ref="r021" />
+			<room ref="r022" />
+			<room ref="r023" />
+			<room ref="r024" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c148">
-			<room ref="r003" />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 		<constraint type="room" course="c149">
-			<room ref="r002 " />
+			<room ref="r001" />
+			<room ref="r004" />
+			<room ref="r005" />
+			<room ref="r006" />
+			<room ref="r011" />
+			<room ref="r012" />
+			<room ref="r013" />
+			<room ref="r016" />
+			<room ref="r017" />
+			<room ref="r018" />
+			<room ref="r019" />
+			<room ref="r021" />
+			<room ref="r023" />
+			<room ref="r025" />
+			<room ref="r026" />
+			<room ref="r027" />
 		</constraint>
 	</constraints>
 </instance>
