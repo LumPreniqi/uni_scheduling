@@ -63,8 +63,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Input\FME-A.xml" />
-    <Content Include="Input\FME-S.xml" />
     <Content Include="Input\input.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>

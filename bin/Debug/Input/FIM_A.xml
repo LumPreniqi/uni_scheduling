@@ -319,33 +319,33 @@
 		<course id="c149" teacher="t036" lectures="2" min_days="1" students="30" double_lectures="True" />
 	</courses>
 	<rooms>
-		<room id="r001" size="150" building="1" />
-		<room id="r002 " size="100" building="1" />
-		<room id="r003" size="60" building="1" />
-		<room id="r004" size="200" building="1" />
-		<room id="r005" size="50" building="2" />
-		<room id="r006" size="120" building="1" />
-		<room id="r007" size="80" building="1" />
-		<room id="r008" size="50" building="1" />
-		<room id="r009" size="70" building="1" />
-		<room id="r010" size="50" building="1" />
-		<room id="r011" size="50" building="2" />
-		<room id="r012" size="50" building="2" />
-		<room id="r013" size="50" building="2" />
-		<room id="r014" size="50" building="1" />
-		<room id="r015" size="70" building="1" />
-		<room id="r016" size="40" building="2" />
-		<room id="r017" size="40" building="2" />
-		<room id="r018" size="50" building="2" />
-		<room id="r019" size="50" building="2" />
-		<room id="r020" size="50" building="1" />
-		<room id="r021" size="50" building="2" />
-		<room id="r022" size="50" building="1" />
-		<room id="r023" size="40" building="2" />
-		<room id="r024" size="70" building="1" />
-		<room id="r025" size="50" building="2" />
-		<room id="r026" size="50" building="2" />
-		<room id="r027" size="100" building="1" />
+		<room id="r001" size="150" building="0" />
+		<room id="r002 " size="100" building="0" />
+		<room id="r003" size="150" building="0" />
+		<room id="r004" size="200" building="0" />
+		<room id="r005" size="60" building="1" />
+		<room id="r006" size="120" building="0" />
+		<room id="r007" size="80" building="0" />
+		<room id="r008" size="50" building="0" />
+		<room id="r009" size="70" building="0" />
+		<room id="r010" size="50" building="0" />
+		<room id="r011" size="50" building="1" />
+		<room id="r012" size="50" building="1" />
+		<room id="r013" size="50" building="1" />
+		<room id="r014" size="50" building="0" />
+		<room id="r015" size="70" building="0" />
+		<room id="r016" size="40" building="1" />
+		<room id="r017" size="40" building="1" />
+		<room id="r018" size="50" building="1" />
+		<room id="r019" size="50" building="1" />
+		<room id="r020" size="50" building="0" />
+		<room id="r021" size="50" building="1" />
+		<room id="r022" size="50" building="0" />
+		<room id="r023" size="40" building="1" />
+		<room id="r024" size="70" building="0" />
+		<room id="r025" size="50" building="1" />
+		<room id="r026" size="50" building="1" />
+		<room id="r027" size="100" building="0" />
 	</rooms>
 	<curricula>
 		<curriculum id="q001">
